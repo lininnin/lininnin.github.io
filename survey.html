@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Questionnaire about cats</title>
+        <style>
+            .column5 {
+              float: left;
+              width: 50%;
+              text-align:left;
+            }
+            .column0{
+              float: center;
+                width: 60%;
+              text-align:left;
+            }
+            .background_img{
+                background-image: url(background.jpg);
+                background-repeat: repeat;
+               
+                
+                
+            }
+        </style>
+    </head>
+    
+    <body class="background_img">
+        <h2 style='text-align: center;background-color:darksalmon'>Survey Form</h2>
+        <div class="row">
+  <div class="column" style="background-color:Salmon;">
+    <h5><a href='home.html'> Home</a></h5>
+  </div>
+  <div class="column" style="background-color:LightSalmon;">
+    <h5><a href='buou.html'> Ragdoll</a></h5>
+  </div>
+  <div class="column" style="background-color:darkorange;">
+    <h5><a href='mianin.html'>Maine Coon</a></h5>
+  </div>
+  <div class="column" style="background-color:LightSalmon;">
+    <h5><a href='yingduan.html'>Britsh Short Hair</a></h5>
+  </div>
+  <div class="column" style="background-color:Salmon;">
+    <h5><a href='xianluo.html'>Siamese</a></h5>
+  </div>
+</div>
+        
+        <center><div class="column0" style="background-color: mistyrose">
+        <form action="xx.png" method="get">
+            <div class="column5">
+            <!--
+              Can you guarantee to keep it until the end of its life (radio or not)
+              Name, phone number, email, suggestions for website (textarea)-->
+            
+            <h2>Questionnaire about cats</h2>
+            <label for="q1">1,Are you a dog person or cat person?</label><br>
+            <input type="radio" id="dog" name="q1" value="dog person"><label for="dog">dog person</label>
+            <input type="radio" id="cat" name="q1" value="cat person"><label for="cat">cat person</label>
+            <input type="radio" id="none" name="q1" value="none"><label for="none">none</label><br>
+            <br>
+            <label for="catday">2,Do you plan to have a cat in the future? </label><br>
+            (If you are not planning to have a cat, you can skip questions 3 to 7.)<br>
+            <input type="radio" id="have cat" name="catday" value="dog person"><label for="havecat">Yes</label>
+            <input type="date" id="catday" value="catday"><br>
+            <input type="radio" id="nocat" name="catday" value="cat person"><label for="nocat">No</label>
+            <br><br>
+            <label for="budget">3,What is your monthly budget for cat ownership?</label><br>
+            <input type="text" id="budget"><br><br>
+            <label for="require">4,Do you have requirements on the breed of cats? </label><br>
+            <input type="text" id="require"><br><br>
+            
+            5,How many years have you had cats：<br>
+            <select>
+                <option>Less than 1</option>
+                <option>1-3 years</option>
+                <option>more than 3 years</option>
+                <option> </option>
+            </select>
+            </div>
+            <div class="column5">
+            <br><br>
+            6,Can you save up a medical fund for your cat? ：<br>
+            <input type="radio" value="Yes" name="hunyin" id="medicine"><label for="medicine">Yes</label>
+            <input type="radio" value="No" name="hunyin" id="nomedicine"><label for="nomedicine">No</label><br><br>
+
+            7,Are you comfortable with cats: <br>
+            <input type="checkbox" name="like" id="cute" value="knocking over flower pots/dishes">
+            <label for="cute">knocking over flower pots/dishes</label><br>
+            <input type="checkbox" name="like" id="hot" value="destroying furniture">
+            <label for="hot">destroying furniture</label><br>
+            <input type="checkbox" name="like" value="accidentally biting people" id="both">
+            <label for="both">accidentally biting people</label><br>
+            <input type="checkbox" name="like" value="none" id="none">
+            <label for="none">none</label><br>
+            <br>
+
+            8,Name, phone number, email, suggestions for website：<br>
+            <textarea rows="4" cols="25">
+                write more
+            </textarea><br><br>
+            9,You can show your cat:<br>
+            <label for="file">File</label>
+            <input type="file"><br/><br/>
+            </div>
+                <center>
+                    <input type="submit" value="submit"><br>
+                    <input type="checkbox" checked="checked">Consent Terms
+                </center>
+            <br>
+        </form></div>
+        <div class="column0" style="background-color: mistyrose">
+        <h2>promise：</h2>
+        <ul>
+            <li>I'm serious</li>
+            <li>I will be responsible for my chose.</li>
+        </ul>
+        </div>
+        </center>
+    </body>
+</html>
